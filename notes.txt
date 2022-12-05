@@ -1,0 +1,78 @@
+/registerUser
+
+
+check if all fields that are firstname, lastname, email, password are present
+
+try to find the user inside the database using User database (created inside database.js) by referring email
+
+if user already exist, send response - user already found in database
+
+
+encrypt the password , using bcrypt.hash
+
+
+if user doesnot already exist , create the user inside the database
+
+
+create token using jwt and send jwt with response
+
+////////////////////////////////////////////////////////////////////////////////
+/login api
+
+
+request email and password
+
+check if email and password are present inside the body
+
+
+then try to check if email exist in the database
+
+
+if user exist and password matches
+
+
+///Please tell again about &gt used while comparing date in reset password
+
+////sam8@gmail.com
+
+/////sam1234
+
+/// authorization below
+
+create file auth.js
+
+
+auth function takes 3 parameters req, res , next
+
+// as we have used cookie-parser
+
+so req.cookies will contain token
+
+
+if token is missing , send response that is token is missing
+
+
+then take try catch block
+
+in try ....
+
+
+use jwt.verify to verify the token using sam shhhh
+
+this token will give us id as well as email which were used to create token
+
+
+now, send this decode with req.user
+
+
+at last dont forget to return next
+
+
+
+
+
+
+
+
+
+
