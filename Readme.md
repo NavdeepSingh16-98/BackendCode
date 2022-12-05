@@ -9,6 +9,10 @@
 - Express Js
 - MongoDB Atlas
 
+### Base URL to use API
+
+[Live URL](https://backendcode-production.up.railway.app/)
+
 ### This Project contains following three API's-
 
 - Regiter API
